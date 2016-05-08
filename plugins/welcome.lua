@@ -1,8 +1,3 @@
-------------------------------------------
---  DBTeam DBTeam DBTeam DBTeam DBTeam ---
---  Welcome by @xxdamage               ---
--- multilanguage and fix by@Jarriz     ---
-------------------------------------------
 function chat_new_user(msg)
    local name = msg.action.user.first_name:gsub('_', ' ')
     local id = msg.action.user.id
